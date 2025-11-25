@@ -181,8 +181,8 @@ const App = () => {
   const wheelRotation = rotationDeg + idleRotation;
 
   return (
-    <main className="flex min-h-screen flex-col items-center justify-center bg-[white] from-black via-zinc-950 to-black px-4 py-16 text-white">
-      <div className="w-full max-w-4xl space-y-10 text-center">
+    <main className="flex min-h-[100dvh] flex-col items-center justify-center bg-[white] from-black via-zinc-950 to-black px-4 py-16 text-white">
+      <div className="w-full space-y-10 text-center">
         <header>
           <h1 className="text-2xl font-bold text-black">나이키 Jordan 룰렛</h1>
         </header>
@@ -242,7 +242,7 @@ const App = () => {
             </div>
           </div>
           <p className="text-base text-zinc-400 font-bold">
-            {isSpinning ? "" : "터치해서 결과를 확인해 보세요."}
+            {isSpinning ? "" : "클릭 결과를 확인해 보세요."}
           </p>
         </section>
       </div>
