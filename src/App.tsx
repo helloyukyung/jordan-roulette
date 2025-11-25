@@ -27,7 +27,7 @@ const wheelSegments: WheelSegment[] = [
   { outcome: "lose", color: "#5B6146" },
 ];
 
-const spinDurationMs = 3200;
+const spinDurationMs = 6000;
 const extraRotations = 5;
 const segmentAngle = 360 / wheelSegments.length;
 
