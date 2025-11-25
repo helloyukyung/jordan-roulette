@@ -242,7 +242,7 @@ const App = () => {
             </div>
           </div>
           <p className="text-base text-zinc-400 font-bold">
-            {isSpinning ? "" : "클릭 결과를 확인해 보세요."}
+            {isSpinning ? "" : "클릭하여 결과를 확인해 보세요."}
           </p>
         </section>
       </div>
