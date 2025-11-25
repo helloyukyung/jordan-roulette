@@ -265,7 +265,7 @@ const App = () => {
                 className="w-full"
                 onClick={handleReset}
               >
-                닫기
+                확인
               </Button>
             </div>
           </section>
